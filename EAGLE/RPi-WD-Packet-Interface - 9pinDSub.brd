@@ -1712,7 +1712,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP4" library="SparkFun-Connectors" package="AUDIO-JACK" value="TX Audio" x="3.81" y="29.21" smashed="yes">
 <attribute name="NAME" x="2.2225" y="27.94" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="JP6" library="SparkFun-Connectors" package="DB9" value="Radio" x="58.42" y="20.32" smashed="yes" rot="R270">
+<element name="JP2" library="SparkFun-Connectors" package="DB9" value="Radio" x="58.42" y="20.32" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CONN-08194" x="58.42" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="62.31" y="21.4325" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
@@ -1821,7 +1821,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="PTT">
 <contactref element="T1" pad="1"/>
-<contactref element="JP6" pad="3"/>
+<contactref element="JP2" pad="3"/>
 <wire x1="56.99125" y1="20.32" x2="57" y2="20.32" width="0.254" layer="1"/>
 <wire x1="44.45" y1="19.05" x2="55.73" y2="19.05" width="0.3048" layer="1"/>
 <wire x1="55.73" y1="19.05" x2="57" y2="20.32" width="0.3048" layer="1"/>
@@ -1839,7 +1839,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="49.53" y1="26.035" x2="47.625" y2="26.035" width="0.254" layer="16"/>
 </signal>
 <signal name="TXAUDIO">
-<contactref element="JP6" pad="1"/>
+<contactref element="JP2" pad="1"/>
 <contactref element="C4" pad="2"/>
 <wire x1="20.955" y1="30.00375" x2="20.955" y2="29.21" width="0.254" layer="1"/>
 <wire x1="25.55875" y1="35.56" x2="20.955" y2="30.00375" width="0.254" layer="1"/>
@@ -1849,7 +1849,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="56.99125" y1="25.87625" x2="57" y2="25.86" width="0.254" layer="1"/>
 </signal>
 <signal name="RXAUDIO">
-<contactref element="JP6" pad="5"/>
+<contactref element="JP2" pad="5"/>
 <contactref element="JP3" pad="TIP"/>
 <wire x1="8.89" y1="6.50875" x2="39.6875" y2="6.50875" width="0.254" layer="16"/>
 <wire x1="8.89" y1="6.50875" x2="8.81" y2="6.43" width="0.254" layer="16"/>
@@ -1892,7 +1892,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="T1" pad="3"/>
 <contactref element="JP1" pad="1"/>
 <contactref element="T3" pad="3"/>
-<contactref element="JP6" pad="6"/>
+<contactref element="JP2" pad="6"/>
 <contactref element="JP4" pad="SLEEVE"/>
 <wire x1="39.37" y1="26.19375" x2="39.21125" y2="26.035" width="0.254" layer="16"/>
 <wire x1="39.37" y1="29.21" x2="39.37" y2="26.19375" width="0.254" layer="16"/>

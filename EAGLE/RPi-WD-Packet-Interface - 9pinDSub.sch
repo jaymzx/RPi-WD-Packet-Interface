@@ -15098,7 +15098,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED2" library="led" deviceset="LED" device="5MM" value="DCD"/>
 <part name="T3" library="transistor" deviceset="2N3904" device=""/>
 <part name="PE2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP6" library="SparkFun-Connectors" deviceset="DB9" device="FEMALE" value="Radio"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="DB9" device="FEMALE" value="Radio"/>
 <part name="PE8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-US_" device="0207/7" value="10K"/>
 </parts>
@@ -15136,7 +15136,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LED2" gate="G$1" x="111.76" y="53.34"/>
 <instance part="T3" gate="G1" x="114.3" y="35.56" rot="MR0"/>
 <instance part="PE2" gate="1" x="111.76" y="27.94"/>
-<instance part="JP6" gate="G$1" x="139.7" y="55.88"/>
+<instance part="JP2" gate="G$1" x="139.7" y="55.88"/>
 <instance part="PE8" gate="1" x="0" y="45.72"/>
 <instance part="R1" gate="G$1" x="40.64" y="55.88" rot="R270"/>
 </instances>
@@ -15220,7 +15220,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="71.12" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="G$1" pin="3"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
 <wire x1="132.08" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
 <label x="127" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -15240,7 +15240,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="TXAUDIO" class="0">
 <segment>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="60.96" x2="127" y2="60.96" width="0.1524" layer="91"/>
 <label x="121.92" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -15252,7 +15252,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="RXAUDIO" class="0">
 <segment>
-<pinref part="JP6" gate="G$1" pin="5"/>
+<pinref part="JP2" gate="G$1" pin="5"/>
 <wire x1="132.08" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
 <label x="121.92" y="50.8" size="1.778" layer="95"/>
 </segment>
@@ -15346,7 +15346,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="PE2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="G$1" pin="6"/>
+<pinref part="JP2" gate="G$1" pin="6"/>
 <wire x1="147.32" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <label x="147.32" y="58.42" size="1.778" layer="95"/>
 </segment>

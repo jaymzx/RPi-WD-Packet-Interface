@@ -1,15 +1,13 @@
-Partlist exported from C:/Users/jaymzx/Documents/GitHub/RPi-WD-Packet-Interface/EAGLE/RPi-WD-Packet-Interface - 9pinDSub.sch at 6/27/2015 9:51 PM
-
 Part Value    Device          Package      Description                          
 C1   0.1      C-US025-025X050 C025-025X050 CAPACITOR, American symbol           
 C2   0.1      C-US025-025X050 C025-025X050 CAPACITOR, American symbol           
 C3   10       CPOL-USE2-5     E2-5         POLARIZED CAPACITOR, American symbol 
 C4   0.1      C-US025-025X050 C025-025X050 CAPACITOR, American symbol           
-IC1  TLC555   LM555N          DIL08        TIMER                                
+IC1  TLC555   TLC555          DIL08        CMOS TIMER                                
 JP1  RPi      M04PTH          1X04         Header 4                             
+JP2  Radio    DB9FEMALE       DB9          DB9 Connector                        
 JP3  RX Audio AUDIO-JACKPTH   AUDIO-JACK   3.5mm Audio Jack                     
 JP4  TX Audio AUDIO-JACKPTH   AUDIO-JACK   3.5mm Audio Jack                     
-JP6  Radio    DB9FEMALE       DB9          DB9 Connector                        
 LED1 PTT      LED5MM          LED5MM       LED                                  
 LED2 DCD      LED5MM          LED5MM       LED                                  
 R1   10K      R-US_0207/7     0207/7       RESISTOR, American symbol            
