@@ -17,6 +17,7 @@ R4   3K       R-US_0207/7     0207/7       RESISTOR, American symbol
 R5   3K       R-US_0207/7     0207/7       RESISTOR, American symbol            
 R6   68       R-US_0207/7     0207/7       RESISTOR, American symbol            
 R7   68       R-US_0207/7     0207/7       RESISTOR, American symbol            
+R8   3K       R-US_0207/7     0207/7       RESISTOR, American symbol            
 T1   2N3904   2N3904          TO92         NPN TRANSISTOR                       
 T2   2N3904   2N3904          TO92         NPN TRANSISTOR                       
 T3   2N3904   2N3904          TO92         NPN TRANSISTOR                       
