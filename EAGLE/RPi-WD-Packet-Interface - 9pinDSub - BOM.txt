@@ -1,11 +1,10 @@
-IC1  TLC555   TLC555          DIL08        CMOS TIMER                                
-Part Value               Device                   Package      Description                                               
+Part Value               Device                   Package      Description     
 C1   0.1                 C-US025-025X050          C025-025X050 CAPACITOR, American symbol                                
 C2   0.1                 C-US025-025X050          C025-025X050 CAPACITOR, American symbol                                
 C3   100uf               CPOL-USE2-5              E2-5         POLARIZED CAPACITOR, American symbol                      
 C4   0.1                 C-US025-025X050          C025-025X050 CAPACITOR, American symbol                                
 IC1  TLC555              TLC555                   DIL08        TIMER                                                     
-JP1  rx ch select        M03PTH                   1X03         Standard 3-pin 0.1" header                                                  
+JP1  rx ch select        M03PTH                   1X03         Standard 3-pin 0.1" header                                              
 JP2  RPi                 M04PTH                   1X04         Standard 4-pin 0.1" header                                
 JP3  TX Audio            AUDIO-JACKPTH            AUDIO-JACK   3.5mm Audio Jack                                          
 JP4  RX Audio            AUDIO-JACKPTH            AUDIO-JACK   3.5mm Audio Jack                                          
@@ -20,11 +19,11 @@ Q2   PTT-LED             TRANSISTOR_NPNTO-92-AMMO TO-92-AMMO   Generic NPN BJT 2
 Q3   DCD-LED             TRANSISTOR_NPNTO-92-AMMO TO-92-AMMO   Generic NPN BJT 2N3904 or equiv                                          
 R1   10K                 R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R2   100K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-R3   3K                  R-US_0207/7              0207/7       RESISTOR, American symbol                                 
+R3   3.3K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R4   1M                  R-TRIMM3296W             RTRIM3296W   BOURNS 3296 - Vertical 3/8" Square Trimpot� 25-turn Trimming Potentiometer                                         
-R5   3K                  R-US_0207/7              0207/7       RESISTOR, American symbol                                 
+R5   3.3K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R6   100                 R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R7   100                 R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-R8   3K                  R-US_0207/7              0207/7       RESISTOR, American symbol                                 
+R8   3.3K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R9   10K                 RTRIM-3362P              RTRIM3362P   BOURNS 3362 - 1/4" Square Trimpot� Trimming Potentiometer 
 R10  2.2K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
