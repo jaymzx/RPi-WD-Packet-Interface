@@ -32,7 +32,7 @@ I set up an APRS igate using a Raspberry Pi device and a TNC-Pi 'hat'. While tro
 ### Readily-available parts
 * You probably have most of these parts in your bin, but things like the 3.5mm and DB-9 connectors are available at [SparkFun](https://www.sparkfun.com/). I specified genuine Borne trimpots in the PCB footprints but they are commonly used by others. You can find them at [Mouser](http://www.mouser.com/) or many other places.
 
-You can order a [pre-made PCB from OSH Park](https://oshpark.com/shared_projects/rPyD67jj) (with the beautiful purple solder mask as shown). They come in multiples of three, so order some for your friends or make a couple for a multi-rig interface. You can also take the Eagle files and have them made elsewhere, or make your own using a toner transfer or photo etch PCB process. Go nuts.
+You can order a [pre-made PCB from OSH Park](https://oshpark.com/shared_projects/K88BIkEr) (with the beautiful purple solder mask as shown). They come in multiples of three, so order some for your friends or make a couple for a multi-rig interface. You can also take the Eagle files and have them made elsewhere, or make your own using a toner transfer or photo etch PCB process. Go nuts.
 
 # Known issues
 None at this time. 
