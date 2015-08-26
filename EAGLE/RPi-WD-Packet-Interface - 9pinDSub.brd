@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -32,20 +32,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -89,7 +89,7 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
@@ -147,13 +147,13 @@
 <text x="41.8875" y="19.47" size="1.27" layer="21" font="vector" ratio="15" distance="20" rot="R90" align="center">PTT Resistor</text>
 <text x="15.1275" y="8.9125" size="1.27" layer="21" font="vector" ratio="15" rot="R90">L</text>
 <text x="15.0275" y="18.2725" size="1.27" layer="21" font="vector" ratio="15" rot="R90">R</text>
-<text x="49.325" y="38.68" size="1.27" layer="21" font="vector" ratio="12">tx audio</text>
+<text x="48.825" y="38.68" size="1.27" layer="21" font="vector" ratio="12">tx audio</text>
 <text x="55.04" y="36.3825" size="1.27" layer="21" font="vector" ratio="12">gnd</text>
 <text x="55.04" y="29.555" size="1.27" layer="21" font="vector" ratio="12">ptt</text>
 <text x="49.225" y="20.67" size="1.27" layer="21" font="vector" ratio="12">rx audio</text>
 <text x="48.9175" y="37.01" size="1.016" layer="21" font="vector" ratio="12">1</text>
-<text x="53.54" y="33.8125" size="1.016" layer="21" font="vector" ratio="12">6</text>
-<text x="53.54" y="28.185" size="1.016" layer="21" font="vector" ratio="12">3</text>
+<text x="53.74" y="33.7125" size="1.016" layer="21" font="vector" ratio="12">6</text>
+<text x="53.74" y="28.185" size="1.016" layer="21" font="vector" ratio="12">3</text>
 <text x="48.835" y="21.9575" size="1.016" layer="21" font="vector" ratio="12">5</text>
 <text x="32.3275" y="26.1725" size="1.27" layer="21" font="vector" ratio="15" distance="30">delay</text>
 <dimension x1="81.28" y1="21.2725" x2="-3.4925" y2="21.59" x3="38.89375" y3="21.59" textsize="1.778" layer="47" dtype="horizontal"/>
@@ -201,8 +201,9 @@ Interface</text>
 <wire x1="50.5" y1="37" x2="52" y2="38.5" width="0.254" layer="21"/>
 <wire x1="50.5" y1="23.5" x2="52" y2="22" width="0.254" layer="21"/>
 <wire x1="53.1" y1="35.2" x2="54.4" y2="36.5" width="0.254" layer="21"/>
-<text x="52.5" y="4" size="1.27" layer="22" font="vector" rot="MR0">github.com/jaymzx/RPi-WD-Packet-Interface</text>
-<text x="53" y="55.5" size="1.4224" layer="22" rot="MR0">version 1.1</text>
+<text x="52.5" y="3.8" size="1.27" layer="22" font="vector" ratio="10" rot="MR0">github.com/jaymzx/RPi-WD-Packet-Interface</text>
+<text x="53" y="52.5" size="1.4224" layer="22" font="vector" ratio="11" rot="MR0">version 1.1
+rev A</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1613,9 +1614,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-1.778" x2="0" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="0" y1="-3.302" x2="0" y2="-3.81" width="0.127" layer="21"/>
 <circle x="0" y="-2.5" radius="1.8027" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="-2.54" drill="0.6"/>
-<pad name="2" x="0" y="0" drill="0.6"/>
-<pad name="3" x="2.54" y="-2.54" drill="0.6"/>
+<pad name="1" x="-2.54" y="-2.54" drill="0.7" rot="R270"/>
+<pad name="2" x="0" y="0" drill="0.7"/>
+<pad name="3" x="2.54" y="-2.54" drill="0.7"/>
 <text x="-2.54" y="1.27" size="1.016" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-7.62" size="1.016" layer="27">&gt;VALUE</text>
 </package>
@@ -1797,6 +1798,54 @@ http://dangerousprototypes.com</description>
 </package>
 </packages>
 </library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="OSHW-LOGO-M">
+<polygon width="0.15" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1807,7 +1856,7 @@ http://dangerousprototypes.com</description>
 <clearance class="0" value="0.254"/>
 </class>
 </classes>
-<designrules name="OSHParkDesignRules">
+<designrules name="OSHParkDesignRules *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1871,7 +1920,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="25mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1987,10 +2036,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="16.494" y="30.9135" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="C1" library="rcl" package="C025-025X050" value="0.1" x="15.015" y="24.4325" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.721" y="26.9135" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="15.921" y="26.9135" size="1.016" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C3" library="rcl" package="E2-5" value="100" x="14.9825" y="36.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.7275" y="33.9915" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="15.9275" y="33.9915" size="1.016" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C4" library="rcl" package="C025-025X050" value="0.1" x="44.0875" y="40.3175" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.5765" y="41.0435" size="1.016" layer="25" ratio="10" rot="R270"/>
@@ -2007,7 +2056,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="JP7" library="SparkFun-Connectors" package="DB9" value="Radio" x="50.925" y="29.935" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CONN-08194" x="50.925" y="29.935" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="54.8925" y="42.715" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="54.8925" y="41.215" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="LED1" library="led" package="LED5MM" value="PTT" x="50.91" y="50.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.4566" y="48.275" size="1.016" layer="25" ratio="10" rot="R90"/>
@@ -2018,13 +2067,13 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="52.3121" y="6.0934" size="2.54" layer="21" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="R2" library="rcl" package="0207/7" value="100K" x="24.225" y="20.35" smashed="yes">
-<attribute name="NAME" x="23.1725" y="19.6245" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="23.0725" y="19.6245" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="R5" library="rcl" package="0207/7" value="3K" x="24.225" y="45.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.1775" y="45.758" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="25.2775" y="45.758" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="R3" library="rcl" package="0207/7" value="3K" x="24.225" y="40.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.1775" y="41.068" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="25.2775" y="41.068" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="R6" library="rcl" package="0207/7" value="100" x="33.63" y="40.225" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.122" y="41.195" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -2039,7 +2088,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="37.4575" y="48.4375" size="1.016" layer="25" ratio="10"/>
 </element>
 <element name="Q3" library="SparkFun-DiscreteSemi" package="TO-92-AMMO" value="DCD-LED" x="38.7" y="8.5675" smashed="yes">
-<attribute name="NAME" x="37.7475" y="5.4925" size="1.016" layer="25" ratio="10"/>
+<attribute name="NAME" x="38.2475" y="5.4925" size="1.016" layer="25" ratio="10"/>
 </element>
 <element name="R1" library="rcl" package="0207/7" value="10K" x="24.225" y="15.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.1775" y="15.668" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -2070,6 +2119,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="PCB1" library="dp_devices" package="DP6060_V1" value="PCB_DP_SQUARE-6X6" x="30.5" y="30">
 <attribute name="PCB_SIZE" value="DP6060_V1" x="30.5" y="30" size="1.778" layer="27" display="off"/>
 </element>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="12.5" y="55.3"/>
 </elements>
 <signals>
 <signal name="N$3">
@@ -2262,7 +2312,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="4.125" y1="13.92" x2="6.5" y2="16.295" width="0.254" layer="1"/>
 <wire x1="6.5" y1="16.295" x2="6.5" y2="24.5" width="0.254" layer="1"/>
 <wire x1="28.035" y1="20.35" x2="30.5" y2="17.885" width="0.254" layer="1"/>
-<wire x1="30.5" y1="17.885" x2="30.5" y2="13" width="0.254" layer="1"/>
+<wire x1="30.5" y1="17.885" x2="30.5" y2="17.5" width="0.254" layer="1"/>
+<wire x1="30.5" y1="17.5" x2="30.5" y2="13" width="0.254" layer="1"/>
 <wire x1="30.5" y1="13" x2="34.9325" y2="8.5675" width="0.254" layer="1"/>
 <wire x1="34.9325" y1="8.5675" x2="36.16" y2="8.5675" width="0.254" layer="1"/>
 <wire x1="13.9665" y1="36.72" x2="13.9465" y2="36.7" width="0.254" layer="1"/>
@@ -2282,6 +2333,91 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="60.5" y="0"/>
 <vertex x="0.5" y="0"/>
 </polygon>
+<via x="30.5" y="17.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="49.6" y="57.8" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="41.5" y="56.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="36" y="58" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="27.1" y="58.1" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="17" y="56.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="9" y="55.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="6.4" y="51.3" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="18" y="51.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="31.5" y="54.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="37" y="54.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="57.2" y="49.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="45.8" y="49.8" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="40.4" y="48.9" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="29.5" y="51" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="2.9" y="49.6" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="12.5" y="48.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="23" y="48" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="33.5" y="47" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="41.5" y="45" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="47.5" y="45.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="56.5" y="43.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="2.9" y="42.3" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="12.5" y="43.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="18.3" y="45.2" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="24" y="43" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="30.5" y="43" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="56.5" y="38" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="47.4" y="39.6" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="41" y="39.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="36.5" y="40.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="25.6" y="38.7" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="14.5" y="40" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="5" y="39.2" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="6.7" y="46" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="21" y="37.2" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="31.4" y="38.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="46.5" y="35.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="35.5" y="34.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="31" y="34.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="28" y="35.9" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="8" y="35.1" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="2.9" y="32.6" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="7.7" y="30.1" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="27.3" y="31.2" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="47.2" y="31.3" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="56.5" y="29" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="47.5" y="26.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="41.6" y="28.4" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="38.5" y="27" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="33.8" y="28.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="31.2" y="24.7" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="27" y="23.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="22.7" y="24.6" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="12.5" y="20.6" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="5.2" y="20.7" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="17.7" y="21.4" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="43.1" y="23.3" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="47" y="22" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="56.5" y="23" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="36" y="19.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="56.5" y="17" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="41.8" y="16.7" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="18.2" y="15.4" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="12.4" y="16.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="6.7" y="14" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="2.9" y="17.4" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="2.9" y="10.4" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="17.7" y="9.9" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="25.7" y="9.9" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="31" y="10" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="46.3" y="9.7" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="57.5" y="11" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="43.5" y="6.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="49.6" y="2.3" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="37" y="5.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="28.7" y="2.8" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="11.5" y="3" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="6.5" y="8.6" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="39" y="12.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="47" y="13.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="12.4" y="11.5" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="22.8" y="32.3" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="19" y="32" extent="1-16" drill="0.6" diameter="0.254"/>
+<via x="23.5" y="18" extent="1-16" drill="0.6" diameter="0.254"/>
 </signal>
 <signal name="GPIO-DCD">
 <contactref element="JP2" pad="3"/>
@@ -2380,18 +2516,9 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="4,1,c833d821f6f5a7fe"/>
-<approved hash="4,1,9f34a9e4e9d74d03"/>
-<approved hash="4,1,2e3c68e8288ffc5f"/>
-<approved hash="4,1,9e3ca8ece88b4c5f"/>
-<approved hash="4,1,29346fe02ff3fb23"/>
-<approved hash="4,16,2e3c68e8288ffc5f"/>
-<approved hash="4,16,9e3ca8ece88b4c5f"/>
-<approved hash="4,16,29346fe02ff3fb23"/>
-<approved hash="4,16,9f34a9e4e9d74d03"/>
 <approved hash="2,20,63895fb559646558"/>
-<approved hash="2,20,4a8946b54977454b"/>
 <approved hash="2,20,43594f654967455b"/>
+<approved hash="2,20,4a8946b54977454b"/>
 </errors>
 </board>
 </drawing>
