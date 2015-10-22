@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 Part Value               Device                   Package      Description                                               
-=======
-Part Value               Device                   Package      Description     
->>>>>>> origin/master
+
 C1   0.1                 C-US025-025X050          C025-025X050 CAPACITOR, American symbol                                
 C2   0.1                 C-US025-025X050          C025-025X050 CAPACITOR, American symbol                                
 C3   100uf               CPOL-USE2-5              E2-5         POLARIZED CAPACITOR, American symbol                      
@@ -24,18 +21,10 @@ Q3   DCD-LED             TRANSISTOR_NPNTO-92-AMMO TO-92-AMMO   Generic NPN BJT 2
 R1   10K                 R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R2   100K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R3   3.3K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-<<<<<<< HEAD
 R4   1M                  R-TRIMM3296W             RTRIM3296W   BOURNS 3296 - Vertical 3/8" Square Trimpot® 25-turn Trimming Potentiometer                                         
-=======
-R4   1M                  R-TRIMM3296W             RTRIM3296W   BOURNS 3296 - Vertical 3/8" Square Trimpotï¿½ 25-turn Trimming Potentiometer                                         
->>>>>>> origin/master
 R5   3.3K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R6   100                 R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R7   100                 R-US_0207/7              0207/7       RESISTOR, American symbol                                 
 R8   3.3K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-<<<<<<< HEAD
 R9   10K                 RTRIM-3362P              RTRIM3362P   BOURNS 3362 - 1/4" Square Trimpot® Trimming Potentiometer 
-=======
-R9   10K                 RTRIM-3362P              RTRIM3362P   BOURNS 3362 - 1/4" Square Trimpotï¿½ Trimming Potentiometer 
->>>>>>> origin/master
 R10  2.2K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
