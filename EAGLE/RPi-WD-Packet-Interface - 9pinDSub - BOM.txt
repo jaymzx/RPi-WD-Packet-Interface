@@ -1,30 +1,29 @@
 Part Value               Device                   Package      Description                                               
 
-C1   0.1                 C-US025-025X050          C025-025X050 CAPACITOR, American symbol                                
-C2   0.1                 C-US025-025X050          C025-025X050 CAPACITOR, American symbol                                
-C3   100uf               CPOL-USE2-5              E2-5         POLARIZED CAPACITOR, American symbol                      
-C4   0.1                 C-US025-025X050          C025-025X050 CAPACITOR, American symbol                                
-IC1  TLC555              TLC555                   DIL08        TIMER                                                     
-JP1  rx ch select        M03PTH                   1X03         Standard 3-pin 0.1" header                                              
+C1   0.1                 C-US025-025X050          C025-025X050 CAPACITOR                             
+C2   0.1                 C-US025-025X050          C025-025X050 CAPACITOR                              
+C3   100uf               CPOL-USE2-5              E2-5         POLARIZED CAPACITOR                      
+C4   0.1                 C-US025-025X050          C025-025X050 CAPACITOR                                
+IC1  TLC555              TLC555                   DIL08        TIMER 3.3V                                                    
+JP1  rx ch select        M03PTH                   1X03         Standard 3-pin 0.1" header                            
 JP2  RPi                 M04PTH                   1X04         Standard 4-pin 0.1" header                                
-JP3  TX Audio            AUDIO-JACKPTH            AUDIO-JACK   3.5mm Audio Jack                                          
-JP4  RX Audio            AUDIO-JACKPTH            AUDIO-JACK   3.5mm Audio Jack                                          
-JP5  tx ch select        M03PTH                   1X03         Standard 3-pin 0.1" header                                                 
+JP3  TX Audio            AUDIO-JACKPTH            AUDIO-JACK   3.5mm Audio Jack; Sparkfun PRT-08032 or equiv              
+JP4  RX Audio            AUDIO-JACKPTH            AUDIO-JACK   3.5mm Audio Jack; Sparkfun PRT-08032 or equiv               
+JP5  tx ch select        M03PTH                   1X03         Standard 3-pin 0.1" header                                   
 JP6  PTT Resistor Enable M02PTH                   1X02         Standard 2-pin 0.1" header                      
-JP7  Radio               DB9FEMALE                DB9          DB9 Connector                                             
-LED1 PTT                 LED5MM                   LED5MM       T1-3/4 Red LED                                                       
-LED2 DCD                 LED5MM                   LED5MM       T1-3/4 Yellow LED                                                       
-PCB1 PCB_DP_SQUARE-6X6   PCB_DP_SQUARE-6X6        DP6060_V1    Dangerous Prototypes Standard Square PCB size 60x60mm           
-Q1   PTT                 TRANSISTOR_NPNTO-92-AMMO TO-92-AMMO   Generic NPN BJT 2N3904 or equiv                                          
-Q2   PTT-LED             TRANSISTOR_NPNTO-92-AMMO TO-92-AMMO   Generic NPN BJT 2N3904 or equiv                                          
-Q3   DCD-LED             TRANSISTOR_NPNTO-92-AMMO TO-92-AMMO   Generic NPN BJT 2N3904 or equiv                                          
-R1   10K                 R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-R2   100K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-R3   3.3K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-R4   1M                  R-TRIMM3296W             RTRIM3296W   BOURNS 3296 - Vertical 3/8" Square Trimpot® 25-turn Trimming Potentiometer                                         
-R5   3.3K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-R6   100                 R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-R7   100                 R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-R8   3.3K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
-R9   10K                 RTRIM-3362P              RTRIM3362P   BOURNS 3362 - 1/4" Square Trimpot® Trimming Potentiometer 
-R10  2.2K                R-US_0207/7              0207/7       RESISTOR, American symbol                                 
+JP7  Radio               DB9FEMALE                DB9          DB9 Connector; Sparkfun PRT-00429 or equiv                 
+LED1 PTT                 LED5MM                   LED5MM       T1-3/4 Red LED                                               
+LED2 DCD                 LED5MM                   LED5MM       T1-3/4 Yellow LED                                             
+Q1   PTT                 TRANSISTOR_NPNTO-92      TO-92        Generic NPN BJT 2N3904 or equiv                              
+Q2   PTT-LED             TRANSISTOR_NPNTO-92      TO-92        Generic NPN BJT 2N3904 or equiv                              
+Q3   DCD-LED             TRANSISTOR_NPNTO-92      TO-92        Generic NPN BJT 2N3904 or equiv                            
+R1   10K                 R-US_0207/7              0207/7       RESISTOR                                 
+R2   100K                R-US_0207/7              0207/7       RESISTOR                               
+R3   3.3K                R-US_0207/7              0207/7       RESISTOR                               
+R4   1M                  R-TRIMM3296W             RTRIM3296W   BOURNS 3296 - Vertical 3/8" Square TrimpotÂ® 25-turn Trimming Potentiometer                                         
+R5   3.3K                R-US_0207/7              0207/7       RESISTOR                                 
+R6   100                 R-US_0207/7              0207/7       RESISTOR                                 
+R7   100                 R-US_0207/7              0207/7       RESISTOR                                
+R8   3.3K                R-US_0207/7              0207/7       RESISTOR                               
+R9   10K                 RTRIM-3362P              RTRIM3362P   BOURNS 3362 - 1/4" Square TrimpotÂ® Trimming Potentiometer 
+R10  2.2K                R-US_0207/7              0207/7       RESISTOR       
