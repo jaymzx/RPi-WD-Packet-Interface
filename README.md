@@ -1,6 +1,6 @@
 # RPi-WD-Packet-Interface - A digital mode soundcard interface for the Raspberry Pi!
 
-I set up an APRS igate using a Raspberry Pi device and a TNC-Pi 'hat'. While troubleshooting some other issues, I inadvertantly damaged the TNC-Pi, so I decided to go with a software TNC application. In this case, I chose [Dire Wolf](https://home.comcast.net/~wb2osz/site/) by WB2OSZ. In his documentation, he specified a simple radio PTT interface that included a 'watchdog timer' to prevent a software issue from locking the radio into transmit. Working with WB2OSZ, I expanded the circuit and created a board with the following features:
+I set up an APRS igate using a Raspberry Pi device and a TNC-Pi 'hat'. While troubleshooting some other issues, I inadvertantly damaged the TNC-Pi, so I decided to go with a software TNC application. In this case, I chose [Dire Wolf](https://github.com/wb2osz/direwolf) by WB2OSZ. In his documentation, he specified a simple radio PTT interface that included a 'watchdog timer' to prevent a software issue from locking the radio into transmit. Working with WB2OSZ, I expanded the circuit and created a board with the following features:
 
 ### Selectable transmit and receive channels
 * I noticed between sound card dongles, the mic input could be on the left or the right channel, depending on how much care the manufacturer put into it. A jumper lets you pick the channel that works with your card. I added a transmit channel selector for the same reason, but also so you can use a 'Y' cable with your stereo sound card and use two interfaces to work with two radios without any cable hacking.
@@ -36,5 +36,8 @@ You can order a [pre-made PCB from OSH Park](https://oshpark.com/shared_projects
 
 # Known issues
 None at this time. 
+
+# Improvements
+I'm kicking around the idea of an RJ-45 version of this board, which would be a simple redesign. I also have on the drawing board an isolated version with transformers and opto-isolated PTT control. I welcome discussion around this, and if you can't wait, feel free to fork this project!
 
 ## Enjoy the interface, and see you on the air. 
